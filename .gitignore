@@ -1,0 +1,10 @@
+nitriding
+cover.html
+cover.out
+
+.env
+out/
+node_modules
+freysa-autonomous-project
+__pycache__
+*.pyc

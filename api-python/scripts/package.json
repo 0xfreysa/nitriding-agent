@@ -1,0 +1,22 @@
+{
+  "name": "tee-scripts",
+  "version": "0.1.0",
+  "main": "api-python/scripts/sign-safe.js",
+  "scripts": {
+    "script:example": "ts-node ./example.ts",
+    "script:sign": "ts-node ./sign-safe.ts"
+  },
+  "dependencies": {
+    "@safe-global/api-kit": "^2.5.6",
+    "@safe-global/protocol-kit": "^5.1.1",
+    "@safe-global/types-kit": "^1.0.1",
+    "ethers": "^6.13.4",
+    "ts-node": "^10.9.2",
+    "viem": "^2.21.57"
+  },
+  "author": "@asa93",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}

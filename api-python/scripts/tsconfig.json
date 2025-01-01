@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5", 
+    "module": "commonjs", 
+    "strict": true, 
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"]
+  },
+  "include": [
+    "**/*.ts" 
+  ],
+  "exclude": [
+    "node_modules", 
+    "**/*.spec.ts" 
+  ]
+}
